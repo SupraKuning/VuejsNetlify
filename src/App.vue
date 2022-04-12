@@ -80,7 +80,7 @@ export default {
   mounted() {
     this.$axios
       .get(
-        "https://newsapi.org/v2/everything?q=tesla&from=2022-03-11&sortBy=publishedAt&apiKey=b0add871ad124200989a58f18fb4e036"
+        "https://newsapi.org/v2/everything?q=tesla&from=2022-03-12&sortBy=publishedAt&apiKey=b0add871ad124200989a58f18fb4e036"
       )
       .then((response) => {
         this.berita = response.data.articles;
